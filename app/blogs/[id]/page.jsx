@@ -6,7 +6,7 @@ import Footer from "@/Components/Footer";
 import axios from "axios";
 import Link from "next/link";
 
-const page = ({ params }) => {
+const Page = ({ params }) => {
   const [data, setData] = useState(null);
 
   const fetchBlogData = async () => {
